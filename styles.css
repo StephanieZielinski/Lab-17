@@ -1,0 +1,48 @@
+body {
+background-color: rgb(145, 191, 240);
+}
+
+#container{
+    margin: auto;
+    width: 80%;
+} 
+
+#header{
+ font-family: 'Indie Flower', cursive;
+ font-size: 100px;
+ font-stretch: expanded;
+ color: black;
+ text-align: center;
+}
+
+.title, .author, .comments
+{
+ font-family: cursive;
+ position: relative;
+    border-style: solid;
+    border-color: black;
+    top: 0px;
+    left: 200px;
+    width: 50%;
+ border-radius: 10px;
+
+}
+
+img{
+    border-style: dotted;
+    border-color: black;
+    float: left;
+    margin: 10px;
+    width: 10%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.post {
+    border-style: groove;
+ border-color: white;
+    /*position: relative;*/
+ border-radius: 10px;
+ background-color: rgb(223, 224, 236);
+}
